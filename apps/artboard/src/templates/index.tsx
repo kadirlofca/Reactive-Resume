@@ -12,9 +12,13 @@ import { Nosepass } from "./nosepass";
 import { Onyx } from "./onyx";
 import { Pikachu } from "./pikachu";
 import { Rhyhorn } from "./rhyhorn";
+import { Haft } from "./haft";
 
 export const getTemplate = (template: Template) => {
   switch (template) {
+    case "haft": {
+      return Haft;
+    }
     case "azurill": {
       return Azurill;
     }

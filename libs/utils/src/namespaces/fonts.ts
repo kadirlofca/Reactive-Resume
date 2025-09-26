@@ -8,6 +8,15 @@ export type Font = {
 
 export const fonts: Font[] = [
   {
+    family: "Funnel Display",
+    category: "sans",
+    subsets: ["latin"],
+    variants: ["400"],
+    files: {
+      "400": "https://fonts.gstatic.com/s/funneldisplay/v3/B50WF7FGv37QNVWgE0ga--4Pbb6TDYs0hHHBE4EgUw.woff2",
+    },
+  },
+  {
     family: "Roboto",
     category: "sans-serif",
     subsets: ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
